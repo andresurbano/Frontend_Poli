@@ -66,13 +66,14 @@
         </div>
 
         <div class="header-content container">
+
             <div class="swiper mySwiper-1">
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
                         <div class="slider">
                             <div class="slider-text">
-                                <h1>Productos</h1>
+                                <h1>Bebidas</h1>
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                     Soluta ratione itaque doloribus beatae libero quisquam.
@@ -90,21 +91,250 @@
                             </div>
                         </div>
                     </div> <!--Toda esta parte del div será el slider y lo repetimos para los diferentes que insertamos-->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-text">
+                                <h1>Ofertas</h1>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Soluta ratione itaque doloribus beatae libero quisquam.
+                                    Quas eaque tempore repellendus laboriosam laborum aperiam?
+                                    Omnis nisi eveniet aperiam magni possimus quas nesciunt? 
+                                    <!--Descripcion general de un producto, aqui lo cambiamos con los detalles del producto del supermercado-->
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                                <div class="slider-img">
+                                    <img src="images/slider2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-text">
+                                <h1>Caramelos</h1>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Soluta ratione itaque doloribus beatae libero quisquam.
+                                    Quas eaque tempore repellendus laboriosam laborum aperiam?
+                                    Omnis nisi eveniet aperiam magni possimus quas nesciunt? 
+                                    <!--Descripcion general de un producto, aqui lo cambiamos con los detalles del producto del supermercado-->
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                                <div class="slider-img">
+                                    <img src="images/slider3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
 
 
         </div>
 
-    </header>
+    </header> <!--Hasta aqui termina el Header y empezamos el main-->
+
+    <main class="products">
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Desayuno</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Budin</h4>
+                                    <img src="images/image01.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Budin 9 de Oros</h4> <!--Nombre de producto-->
+                                    <p>Budin de Vainilla</p>
+                                    <span class="precio">$1000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Alfajor</h4>
+                                    <img src="images/image02.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Terrabusi</h4> <!--Nombre de producto-->
+                                    <p>Alfajor de chocolate</p>
+                                    <span class="precio">$1000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Galletas</h4>
+                                    <img src="images/image03.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pepitos</h4> <!--Nombre de producto-->
+                                    <p>Galletas pepitos</p>
+                                    <span class="precio">$2000</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div> <!--Dentro de este swiper wrapper estan los productos de desayuno-->
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Miscelaneos</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Sopas instantaneas</h4>
+                                    <img src="images/image11.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Sopa Knorr</h4> <!--Nombre de producto-->
+                                    <p>Sopa de Camaron</p>
+                                    <span class="precio">$4000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Mayonesa</h4>
+                                    <img src="images/image12.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>NotMAYO</h4> <!--Nombre de producto-->
+                                    <p>Mayonesa Light</p>
+                                    <span class="precio">$3000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Dulce de Leche</h4>
+                                    <img src="images/image13.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>La serenisima</h4> <!--Nombre de producto-->
+                                    <p>Dulce de leche la serenisima</p>
+                                    <span class="precio">$2000</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div> <!--Dentro de este swiper wrapper estan los productos varios-->
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Bebidas</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Bebida energizante</h4>
+                                    <img src="images/image31.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Redbull</h4> <!--Nombre de producto-->
+                                    <p>Lata de bebida redbull</p>
+                                    <span class="precio">$5000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Whiskey</h4>
+                                    <img src="images/image32.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Jack Daniels</h4> <!--Nombre de producto-->
+                                    <p>Whiskey Jack daniels 750ml</p>
+                                    <span class="precio">$20000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Leche</h4>
+                                    <img src="images/image33.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Las 3 niñas</h4> <!--Nombre de producto-->
+                                    <p>Leche entera baja en grasa</p>
+                                    <span class="precio">$2000</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div> <!--Dentro de este swiper wrapper estan los productos -->
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </main>
+
+
 
 
 
 
     <script src="http://cdn.jsdeliver.net/npm/swiper//swiper-bundle.min.js"></script>
-    <!-- libreria js -->
+    <!-- libreria js para los slider swiper -->
     <script src="script.js"></script>
 
 
